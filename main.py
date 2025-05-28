@@ -13,7 +13,7 @@ import nest_asyncio
 nest_asyncio.apply()
 
 # Константы
-TOKEN = "7634676284:AAF5Fbm5DN_Cx-2rj63MKWvUj80ZJnrmH_8"  
+TOKEN = os.getenv("BOT_TOKEN")
 STUDENTS_DIR = "/content/dataset"  # Папка с фото студентов
 ATTENDANCE_FILE = "attendance.txt"  # Файл для отчета
 
