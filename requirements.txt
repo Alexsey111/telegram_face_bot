@@ -1,0 +1,12 @@
+python-telegram-bot==13.15
+opencv-python
+numpy
+deepface
+Pillow
+pytz
+scikit-learn
+mediapipe==0.10.5
+transliterate
+grpcio-status==1.48.2
+protobuf==4.25.3
+nest-asyncio
